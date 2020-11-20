@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\Low_Poly_Survival\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\Camera_Changer.cs" />
     <Compile Include="Assets\Scripts\MovementTikus.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Reference Include="UnityEngine">
