@@ -82,4 +82,41 @@ public class MovementTikus : MonoBehaviour
      
         
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Fast")
+        {
+            Destroy(other.gameObject);
+            StartCoroutine(percepat());
+            //this.gameObject.SetActive(false);
+        }
+
+        if (other.tag == "Slow")
+        {
+            Destroy(other.gameObject);
+            StartCoroutine(perlambat());
+        }
+
+    }
+    IEnumerator percepat()
+    {
+
+        Time.timeScale = 2f;
+        yield return new WaitForSeconds(4);
+        Time.timeScale = 1f;
+        //Destroy(this.gameObject);
+
+        yield return null;
+    }
+
+    IEnumerator perlambat()
+    {
+
+        Time.timeScale = 0.5f;
+        yield return new WaitForSeconds(4);
+        Time.timeScale = 1f;
+        //Destroy(this.gameObject);
+
+        yield return null;
+    }
 }
