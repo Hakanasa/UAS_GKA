@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fast
   - Slow
+  - Cheese
   layers:
   - Default
   - TransparentFX

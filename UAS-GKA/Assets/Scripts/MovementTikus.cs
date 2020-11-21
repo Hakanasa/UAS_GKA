@@ -97,6 +97,11 @@ public class MovementTikus : MonoBehaviour
             StartCoroutine(perlambat());
         }
 
+        if(other.tag == "Cheese")
+        {
+            Destroy(other.gameObject);
+        }
+
     }
     IEnumerator percepat()
     {
