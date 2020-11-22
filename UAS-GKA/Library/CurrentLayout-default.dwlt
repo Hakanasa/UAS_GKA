@@ -21,7 +21,11 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 542}
+=======
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -112,10 +116,17 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
+<<<<<<< HEAD
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
   controlID: 85
+=======
+  m_MinSize: {x: 678, y: 342}
+  m_MaxSize: {x: 12003, y: 8042}
+  vertical: 0
+  controlID: 17
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +148,17 @@ MonoBehaviour:
     y: 0
     width: 1260
     height: 731
+<<<<<<< HEAD
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 86
+=======
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+  vertical: 1
+  controlID: 18
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,11 +179,19 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1260
+<<<<<<< HEAD
     height: 498
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 87
+=======
+    height: 460
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 19
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,7 +210,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 201
+<<<<<<< HEAD
     height: 498
+=======
+    height: 460
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
@@ -210,10 +240,17 @@ MonoBehaviour:
     x: 201
     y: 0
     width: 1059
+<<<<<<< HEAD
     height: 498
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
+=======
+    height: 460
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
@@ -236,19 +273,33 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 498
     width: 1260
     height: 233
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
+=======
+    y: 460
+    width: 1260
+    height: 271
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 2
+=======
+  m_Selected: 2
+  m_LastSelected: 3
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,7 +351,11 @@ MonoBehaviour:
     x: 200.8
     y: 73.6
     width: 1057
+<<<<<<< HEAD
     height: 477
+=======
+    height: 439
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -310,7 +365,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 1057, y: 456}
+=======
+  m_TargetSize: {x: 1057, y: 418}
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -327,8 +386,13 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -422.80002
     m_HBaseRangeMax: 422.80002
+<<<<<<< HEAD
     m_VBaseRangeMin: -182.40001
     m_VBaseRangeMax: 182.40001
+=======
+    m_VBaseRangeMin: -167.2
+    m_VBaseRangeMax: 167.2
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -347,9 +411,15 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1057
+<<<<<<< HEAD
       height: 456
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 528.5, y: 228}
+=======
+      height: 418
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 528.5, y: 209}
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -357,12 +427,21 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -528.5
+<<<<<<< HEAD
       y: -228
       width: 1057
       height: 456
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1321.25, y: 596.25}
+=======
+      y: -209
+      width: 1057
+      height: 418
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1321.25, y: 548.75}
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -392,6 +471,7 @@ MonoBehaviour:
     x: 0
     y: 73.6
     width: 200
+<<<<<<< HEAD
     height: 477
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -400,6 +480,16 @@ MonoBehaviour:
       m_SelectedIDs: 422b0100
       m_LastClickedID: 76610
       m_ExpandedIDs: 568dffff04a0ffffd6cfffff08e0ffff6cfbffff52b2000058230100
+=======
+    height: 439
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 979.6521}
+      m_SelectedIDs: 8493ffff
+      m_LastClickedID: -27772
+      m_ExpandedIDs: 8493ffff7aa4ffff54a6fffff0a6ffffb6b6ffff
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -447,7 +537,11 @@ MonoBehaviour:
     x: 200.8
     y: 73.6
     width: 1057
+<<<<<<< HEAD
     height: 477
+=======
+    height: 439
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 7930aaa1a6a3f9e4988e33e63946de1c
@@ -459,9 +553,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 380.71817, y: 279.6994, z: -72.42134}
     speed: 2
     m_Value: {x: 380.71817, y: 279.6994, z: -72.42134}
+=======
+    m_Target: {x: 3.134141, y: -0.09852792, z: -14.050493}
+    speed: 2
+    m_Value: {x: 3.134141, y: -0.09852792, z: -14.050493}
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -507,6 +607,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
@@ -514,6 +615,15 @@ MonoBehaviour:
     m_Target: 339.14435
     speed: 2
     m_Value: 339.14435
+=======
+    m_Target: {x: -0.21813673, y: 0.5438706, z: -0.1489465, w: -0.7965151}
+    speed: 2
+    m_Value: {x: -0.2181367, y: 0.54387057, z: -0.14894648, w: -0.796515}
+  m_Size:
+    m_Target: 2.2940712
+    speed: 2
+    m_Value: 2.2940712
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -586,9 +696,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 571.2
     width: 1259
     height: 212
+=======
+    y: 533.60004
+    width: 1259
+    height: 250
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -603,20 +719,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Scenes
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Kuliah\Semester 5\GKA\UAS_GKA\UAS-GKA
+  m_LastProjectPath: D:\Unity Project\UAS_GKA\UAS-GKA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 320}
     m_SelectedIDs: 9c540000
     m_LastClickedID: 21660
     m_ExpandedIDs: 000000009454000096540000985400009a5400009c5400009e5400004655000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 238}
+    m_SelectedIDs: f2650000
+    m_LastClickedID: 26098
+    m_ExpandedIDs: 00000000786500007a6500007c6500007e650000806500008265000000ca9a3b
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +775,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000009454000096540000985400009a5400009c5400009e540000
+=======
+    m_ExpandedIDs: 00000000786500007a6500007c6500007e6500008065000082650000
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,9 +804,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_SelectedInstanceIDs: ea5affff
+    m_LastClickedInstanceID: -42262
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
     m_ExpandedInstanceIDs: c6230000f23400005447000072400000da56000062720000607200001e440300e2560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -722,9 +863,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 528
+    y: 533.60004
     width: 1259
-    height: 255
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -748,6 +889,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 571.2
     width: 1259
     height: 212
@@ -755,6 +897,15 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 47180
+=======
+    y: 533.60004
+    width: 1259
+    height: 250
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -27772
+>>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -785,6 +936,7 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 698068743683407404, guid: 8feb371986b723647802db2de21e328a, type: 2}
     - {fileID: 1107000014276936624, guid: 972a6bb97057f2644a0b8ce0a4b89e68, type: 2}
+    - {fileID: -8519933877359956691, guid: 679a2168ed17cd04f83eaf98a4e69cb2, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.43838507
       e01: 0
@@ -818,11 +970,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.9782992
+      e01: 0
+      e02: 0
+      e03: 45.520233
+      e10: 0
+      e11: 0.9782992
+      e12: 0
+      e13: -101.07741
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 972a6bb97057f2644a0b8ce0a4b89e68,
+  m_AnimatorController: {fileID: 9100000, guid: 679a2168ed17cd04f83eaf98a4e69cb2,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107000014276936624, guid: 972a6bb97057f2644a0b8ce0a4b89e68,
+  - m_Target: {fileID: -8519933877359956691, guid: 679a2168ed17cd04f83eaf98a4e69cb2,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
