@@ -7,7 +7,6 @@ TagManager:
   - Fast
   - Slow
   - Cheese
-  - Trap
   layers:
   - Default
   - TransparentFX
