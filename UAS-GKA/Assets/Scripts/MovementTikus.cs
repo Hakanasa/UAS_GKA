@@ -17,10 +17,13 @@ public class MovementTikus : MonoBehaviour
     Vector3 velocity;    
 
     private Animator animator;
+    private Animator animatorPintu;
 
     private void Start()
     {
         animator = this.GetComponent<Animator>();
+        animatorPintu = GameObject.Find("DoorHolder").GetComponent<Animator>();
+
     }
     private void Update()
     {
@@ -100,6 +103,16 @@ public class MovementTikus : MonoBehaviour
         if(other.tag == "Cheese")
         {
             Destroy(other.gameObject);
+        }
+
+        if(other.tag == "Pintu")
+        {
+            //Debug.Log("pintu");
+            animatorPintu.SetBool("doorOpen", true);
+        }
+        else
+        {
+            animatorPintu.SetBool("doorOpen", false);
         }
 
     }
