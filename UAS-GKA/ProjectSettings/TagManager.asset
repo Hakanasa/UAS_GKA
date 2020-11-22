@@ -7,10 +7,6 @@ TagManager:
   - Fast
   - Slow
   - Cheese
-<<<<<<< HEAD
-=======
-  - Pintu
->>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
   layers:
   - Default
   - TransparentFX

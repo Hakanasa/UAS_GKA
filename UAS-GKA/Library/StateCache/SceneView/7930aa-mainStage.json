@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":380.7181701660156,"y":279.69940185546877,"z":-72.42134094238281},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":339.14434814453127,"orthographic":true}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":3.134140968322754,"y":-0.0985279232263565,"z":-14.050493240356446},"rotation":{"x":-0.218136727809906,"y":0.5438706278800964,"z":-0.14894649386405946,"w":-0.7965151071548462},"size":2.2940711975097658,"orthographic":false}
->>>>>>> parent of 548468c... Revert "Merge branch 'master' of https://github.com/Hakanasa/UAS_GKA"
