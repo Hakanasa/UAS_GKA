@@ -121,8 +121,25 @@ public class MovementTikus : MonoBehaviour
             //Debug.Log("pintu");
             animatorPintu.SetBool("doorOpen", true);
         }
-       
 
+        if (other.tag == "Trap")
+        {
+            Debug.Log("Kena trap");
+            Destroy(other.gameObject);
+
+            StartCoroutine(kenatrap());
+        }  
+ }
+
+    IEnumerator kenatrap()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            this.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().enabled = false;
+            yield return new WaitForSeconds(0.2f);
+            this.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().enabled = true;
+            yield return new WaitForSeconds(0.2f);
+        }
     }
     IEnumerator percepat()
     {
