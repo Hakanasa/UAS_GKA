@@ -85,6 +85,17 @@ public class MovementTikus : MonoBehaviour
      
         
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Pintu")
+        {
+            //Debug.Log("pintu");
+            animatorPintu.SetBool("doorOpen", false);
+        }
+      
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Fast")
@@ -110,10 +121,7 @@ public class MovementTikus : MonoBehaviour
             //Debug.Log("pintu");
             animatorPintu.SetBool("doorOpen", true);
         }
-        else
-        {
-            animatorPintu.SetBool("doorOpen", false);
-        }
+       
 
     }
     IEnumerator percepat()
