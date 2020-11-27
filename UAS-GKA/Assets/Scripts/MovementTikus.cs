@@ -96,9 +96,25 @@ public class MovementTikus : MonoBehaviour
       
     }
 
+    private void OnControllerColliderHit(ControllerColliderHit collision)
+    {
+        if (collision.gameObject.tag == "Fast")
+        {
+            Destroy(collision.gameObject);
+            StartCoroutine(percepat());
+            //this.gameObject.SetActive(false);
+        }
+
+        if (collision.gameObject.tag == "Slow")
+        {
+            Destroy(collision.gameObject);
+            StartCoroutine(perlambat());
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Fast")
+       /* if (other.tag == "Fast")
         {
             Destroy(other.gameObject);
             StartCoroutine(percepat());
@@ -109,7 +125,7 @@ public class MovementTikus : MonoBehaviour
         {
             Destroy(other.gameObject);
             StartCoroutine(perlambat());
-        }
+        }*/
 
         if(other.tag == "Cheese")
         {
