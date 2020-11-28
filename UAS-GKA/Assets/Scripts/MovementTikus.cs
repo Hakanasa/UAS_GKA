@@ -110,6 +110,15 @@ public class MovementTikus : MonoBehaviour
             Destroy(collision.gameObject);
             StartCoroutine(perlambat());
         }
+
+
+        if (collision.gameObject.tag == "Trap")
+        {
+            Debug.Log("Kena trap");
+            Destroy(collision.gameObject);
+
+            StartCoroutine(kenatrap());
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -137,18 +146,11 @@ public class MovementTikus : MonoBehaviour
             //Debug.Log("pintu");
             animatorPintu.SetBool("doorOpen", true);
         }
-
-        if (other.tag == "Trap")
-        {
-            Debug.Log("Kena trap");
-            Destroy(other.gameObject);
-
-            StartCoroutine(kenatrap());
-        }  
  }
 
     IEnumerator kenatrap()
     {
+        speed = 1.5f;
         for (int i = 0; i < 5; i++)
         {
             this.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().enabled = false;
@@ -156,6 +158,7 @@ public class MovementTikus : MonoBehaviour
             this.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().enabled = true;
             yield return new WaitForSeconds(0.2f);
         }
+        speed = 3f;
     }
     IEnumerator percepat()
     {
