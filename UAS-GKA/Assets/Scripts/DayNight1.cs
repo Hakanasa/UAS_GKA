@@ -40,7 +40,7 @@ public class DayNight1 : MonoBehaviour
 
     float Rotation()
     {
-        rotation += startingpoint + speed * Time.deltaTime * 0.2f;
+        rotation += startingpoint + speed * Time.deltaTime * 0.4f;
         startingpoint = 0;
         if (rotation >= 360f)
             rotation -= 360f; // this will keep it to a value of 0 to 359.99...

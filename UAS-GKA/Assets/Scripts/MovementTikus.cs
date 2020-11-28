@@ -150,7 +150,7 @@ public class MovementTikus : MonoBehaviour
 
     IEnumerator kenatrap()
     {
-        speed = 1.5f;
+        speed = 3f;
         for (int i = 0; i < 5; i++)
         {
             this.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().enabled = false;
@@ -158,7 +158,7 @@ public class MovementTikus : MonoBehaviour
             this.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().enabled = true;
             yield return new WaitForSeconds(0.2f);
         }
-        speed = 3f;
+        speed = 6f;
     }
     IEnumerator percepat()
     {
