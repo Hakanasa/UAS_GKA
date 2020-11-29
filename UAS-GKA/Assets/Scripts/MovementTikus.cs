@@ -19,6 +19,9 @@ public class MovementTikus : MonoBehaviour
     private Animator animator;
     private Animator animatorPintu;
 
+    public AudioSource kejuu;
+    public AudioSource jebakan;
+
     private void Start()
     {
         animator = this.GetComponent<Animator>();
@@ -114,9 +117,8 @@ public class MovementTikus : MonoBehaviour
 
         if (collision.gameObject.tag == "Trap")
         {
-            Debug.Log("Kena trap");
+            jebakan.Play();
             Destroy(collision.gameObject);
-
             StartCoroutine(kenatrap());
         }
     }
@@ -138,6 +140,7 @@ public class MovementTikus : MonoBehaviour
 
         if(other.tag == "Cheese")
         {
+            kejuu.Play();
             Destroy(other.gameObject);
         }
 
