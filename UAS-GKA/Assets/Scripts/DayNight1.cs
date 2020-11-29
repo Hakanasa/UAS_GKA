@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DayNight1 : MonoBehaviour
 {
-    private int startingpoint = 50;
+    private int startingpoint = 30;
     public float speed = 100.0f;
     Vector3 angle;
     float rotation = 0f;
@@ -40,7 +40,7 @@ public class DayNight1 : MonoBehaviour
 
     float Rotation()
     {
-        rotation += startingpoint + speed * Time.deltaTime * 0.4f;
+        rotation += startingpoint + speed * Time.deltaTime * 0.8f;
         startingpoint = 0;
         if (rotation >= 360f)
             rotation -= 360f; // this will keep it to a value of 0 to 359.99...

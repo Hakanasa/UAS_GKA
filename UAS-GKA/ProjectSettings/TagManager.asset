@@ -8,6 +8,8 @@ TagManager:
   - Slow
   - Cheese
   - Pintu
+  - Trap
+  - Water
   layers:
   - Default
   - TransparentFX

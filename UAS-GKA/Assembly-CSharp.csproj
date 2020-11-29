@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Objects\Low_Poly_Survival\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Objects\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
     <Compile Include="Assets\Scripts\Camera_Changer.cs" />
     <Compile Include="Assets\Scripts\DayNight.cs" />
     <Compile Include="Assets\Scripts\DayNight1.cs" />

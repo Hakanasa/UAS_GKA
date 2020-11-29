@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     public float timetoDisplay = 720f;
     private Text timernya;
     private float minutes, seconds;
+    public GameObject timeup, lose;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,9 @@ public class Timer : MonoBehaviour
         else
         {
             timernya.text = string.Format("{0:00}:{1:00}", 0, 0);
-            Time.timeScale = 0;
+            timeup.SetActive(true);
+            lose.SetActive(true);
+            GameObject.Find("Player/Idle").GetComponent<MovementTikus>().isPlaying = false;
         }
     }
 

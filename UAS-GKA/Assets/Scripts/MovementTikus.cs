@@ -9,6 +9,8 @@ public class MovementTikus : MonoBehaviour
 
     public float speed = 3f;
 
+    public bool isPlaying = true;
+
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
@@ -21,6 +23,7 @@ public class MovementTikus : MonoBehaviour
 
     public AudioSource kejuu;
     public AudioSource jebakan;
+    public AudioSource loncat;
 
     private void Start()
     {
@@ -30,62 +33,67 @@ public class MovementTikus : MonoBehaviour
     }
     private void Update()
     {
-        if(controller.isGrounded && velocity.y < 0)
+        if (isPlaying == true)
         {
-            velocity.y = -2f; 
-            animator.SetBool("jump", false);
-            animator.SetBool("jumpUp", false);
-        }
-
-        
-        /*if (Input.GetButtonDown("Jump"))
-        {
-            animator.SetBool("jumpUp", true);
-        }
-        else
-        {
-            animator.SetBool("jumpUp", false);
-        }*/
-        
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-
-        if (direction.magnitude >= 0.1f)
-        {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
-
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            controller.Move(moveDir.normalized * speed * Time.deltaTime);
-
-            velocity.y += gravity * Time.deltaTime;
-            controller.Move(velocity * Time.deltaTime);
-
-            if (Input.GetButtonDown("Jump") && controller.isGrounded)
+            if (controller.isGrounded && velocity.y < 0)
             {
-                velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
-                animator.SetBool("jump", true);
-                //animator.SetBool("jumpUp", true);
+                velocity.y = -2f;
+                animator.SetBool("jump", false);
+                animator.SetBool("jumpUp", false);
             }
 
-            animator.SetBool("run", true);
-        }
-        else
-        {
-            velocity.y += gravity * Time.deltaTime;
-            controller.Move(velocity * Time.deltaTime);
-            if (Input.GetButtonDown("Jump") && controller.isGrounded)
+
+            /*if (Input.GetButtonDown("Jump"))
             {
-                velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
                 animator.SetBool("jumpUp", true);
-                //animator.SetBool("jumpUp", true);
             }
-            animator.SetBool("run", false);
+            else
+            {
+                animator.SetBool("jumpUp", false);
+            }*/
+
+            float horizontal = Input.GetAxisRaw("Horizontal");
+            float vertical = Input.GetAxisRaw("Vertical");
+
+            Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+            if (direction.magnitude >= 0.1f)
+            {
+                float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+                transform.rotation = Quaternion.Euler(0f, angle, 0f);
+
+                Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                controller.Move(moveDir.normalized * speed * Time.deltaTime);
+
+                velocity.y += gravity * Time.deltaTime;
+                controller.Move(velocity * Time.deltaTime);
+
+                if (Input.GetButtonDown("Jump") && controller.isGrounded)
+                {
+                    velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
+                    animator.SetBool("jump", true);
+                    loncat.Play();
+                    //animator.SetBool("jumpUp", true);
+                }
+
+                animator.SetBool("run", true);
+            }
+            else
+            {
+                velocity.y += gravity * Time.deltaTime;
+                controller.Move(velocity * Time.deltaTime);
+                if (Input.GetButtonDown("Jump") && controller.isGrounded)
+                {
+                    velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
+                    animator.SetBool("jumpUp", true);
+                    loncat.Play();
+                    //animator.SetBool("jumpUp", true);
+                }
+                animator.SetBool("run", false);
+            }
+
         }
-     
         
     }
 
@@ -120,6 +128,12 @@ public class MovementTikus : MonoBehaviour
             jebakan.Play();
             Destroy(collision.gameObject);
             StartCoroutine(kenatrap());
+        }
+
+        if(collision.gameObject.tag == "Water")
+        {
+            GameObject respawn = GameObject.Find("Respawn");
+            this.gameObject.transform.position = respawn.transform.position;
         }
     }
 

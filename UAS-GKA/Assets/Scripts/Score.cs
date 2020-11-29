@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     GameObject count;
+    public GameObject win;
     int jumlah;
     // Start is called before the first frame update
     void Start()
@@ -19,5 +20,11 @@ public class Score : MonoBehaviour
     {
         jumlah = (GameObject.FindGameObjectsWithTag("Cheese").Length);
         count.GetComponent<Text>().text = jumlah.ToString();
+
+        if(jumlah == 0)
+        {
+            GameObject.Find("Player/Idle").GetComponent<MovementTikus>().isPlaying = false;
+            win.SetActive(true);
+        }
     }
 }
