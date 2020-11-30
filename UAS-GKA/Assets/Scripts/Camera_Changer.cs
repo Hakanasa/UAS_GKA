@@ -19,6 +19,7 @@ public class Camera_Changer : MonoBehaviour
             if (i == Camera.Length)
             {
                 i = 0;
+                Camera[2].SetActive(false);
             }
             if(i < 1)
                 Camera[i].SetActive(true);
@@ -27,6 +28,7 @@ public class Camera_Changer : MonoBehaviour
                 Camera[i-1].SetActive(false);
                 Camera[i].SetActive(true);
             }
+            
             i++;
             yield return new WaitForSeconds(4f);
         }

@@ -28,6 +28,8 @@ public class MovementTikus : MonoBehaviour
     public AudioSource jebakan;
     public AudioSource loncat;
 
+    public GameObject pause;
+
     private void Start()
     {
         animator = this.GetComponent<Animator>();
@@ -38,6 +40,13 @@ public class MovementTikus : MonoBehaviour
     }
     private void Update()
     {
+
+        //Pause
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pause.SetActive(true);
+            Time.timeScale = 0;
+        }
         if (isPlaying == true)
         {
             if (controller.isGrounded && velocity.y < 0)

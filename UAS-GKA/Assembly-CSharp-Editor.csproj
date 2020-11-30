@@ -649,6 +649,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
@@ -657,9 +660,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

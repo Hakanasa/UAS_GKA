@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -30,12 +31,20 @@ public class Timer : MonoBehaviour
             timeup.SetActive(true);
             lose.SetActive(true);
             GameObject.Find("Player/Idle").GetComponent<MovementTikus>().isPlaying = false;
+            StartCoroutine(balikmain());
         }
 
         if(isWin == true)
         {
             timernya.text = string.Format("{0:00}:{1:00}", 0, 0);
+            StartCoroutine(balikmain());
         }
+    }
+
+    IEnumerator balikmain()
+    {
+        yield return new WaitForSeconds(4f);
+        SceneManager.LoadScene(0);
     }
 
     void DisplayTime()
