@@ -11,7 +11,7 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       jumlah = (GameObject.FindGameObjectsWithTag("Cheese").Length);
+        jumlah = (GameObject.FindGameObjectsWithTag("Cheese").Length);
         count = GameObject.Find("Canvas/Left");
     }
 
@@ -24,6 +24,8 @@ public class Score : MonoBehaviour
         if(jumlah == 0)
         {
             GameObject.Find("Player/Idle").GetComponent<MovementTikus>().isPlaying = false;
+            GameObject.Find("Player/Idle").GetComponent<Animator>().SetBool("run", false);
+            GameObject.Find("Canvas/Timer").GetComponent<Timer>().isWin = true;
             win.SetActive(true);
         }
     }

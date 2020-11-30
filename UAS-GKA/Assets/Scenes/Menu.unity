@@ -14300,7 +14300,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 352
+  m_RootOrder: 357
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &170076736
 MonoBehaviour:
@@ -31956,7 +31956,7 @@ Transform:
   - {fileID: 1650840749}
   - {fileID: 1952373166}
   m_Father: {fileID: 0}
-  m_RootOrder: 357
+  m_RootOrder: 363
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &595540670
 GameObject:
@@ -32008,7 +32008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -32053,7 +32053,7 @@ RectTransform:
   - {fileID: 1416407716}
   - {fileID: 1284689376}
   m_Father: {fileID: 0}
-  m_RootOrder: 363
+  m_RootOrder: 365
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -38803,7 +38803,7 @@ Transform:
   - {fileID: 546907066}
   - {fileID: 1983217965}
   m_Father: {fileID: 0}
-  m_RootOrder: 353
+  m_RootOrder: 359
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &842669274
 PrefabInstance:
@@ -54924,7 +54924,7 @@ Transform:
   - {fileID: 1374259324}
   - {fileID: 2074162581}
   m_Father: {fileID: 0}
-  m_RootOrder: 355
+  m_RootOrder: 362
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1189969208
 PrefabInstance:
@@ -61869,7 +61869,7 @@ Transform:
   - {fileID: 2036234378}
   - {fileID: 1742669621}
   m_Father: {fileID: 0}
-  m_RootOrder: 360
+  m_RootOrder: 364
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1435544626
 AudioSource:
@@ -68852,7 +68852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.374, y: 0.07357765}
   m_AnchorMax: {x: 0.63100004, y: 0.19668323}
-  m_AnchoredPosition: {x: -0.39819336, y: -6.508789}
+  m_AnchoredPosition: {x: -0.39819336, y: -6.508774}
   m_SizeDelta: {x: 7.764366, y: 2.2159004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692183692
@@ -82138,7 +82138,7 @@ Transform:
   - {fileID: 1861105370}
   - {fileID: 1202590193}
   m_Father: {fileID: 0}
-  m_RootOrder: 349
+  m_RootOrder: 355
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1935789829
 GameObject:
