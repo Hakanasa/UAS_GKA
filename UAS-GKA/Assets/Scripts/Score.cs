@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     GameObject count;
-    public GameObject win;
+    public GameObject win, timer;
     int jumlah;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class Score : MonoBehaviour
         {
             GameObject.Find("Player/Idle").GetComponent<MovementTikus>().isPlaying = false;
             GameObject.Find("Player/Idle").GetComponent<Animator>().SetBool("run", false);
-            GameObject.Find("Canvas/Timer").GetComponent<Timer>().isWin = true;
+            timer.GetComponent<Timer>().isWin = true;
             win.SetActive(true);
         }
     }
