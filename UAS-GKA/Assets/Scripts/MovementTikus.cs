@@ -22,6 +22,7 @@ public class MovementTikus : MonoBehaviour
     private Animator animatorPintu;
     private Animator animatorPintu1;
     private Animator animatorPintu2;
+    private Animator animatorPintu3;
 
     public AudioSource kejuu;
     public AudioSource jebakan;
@@ -33,7 +34,7 @@ public class MovementTikus : MonoBehaviour
         animatorPintu = GameObject.Find("DoorHolder").GetComponent<Animator>();
         animatorPintu1 = GameObject.Find("DoorHolder1").GetComponent<Animator>();
         animatorPintu2 = GameObject.Find("DoorHolder2").GetComponent<Animator>();
-
+        animatorPintu3 = GameObject.Find("DoorHolder3").GetComponent<Animator>();
     }
     private void Update()
     {
@@ -109,6 +110,7 @@ public class MovementTikus : MonoBehaviour
             animatorPintu.SetBool("doorOpen", false);
             animatorPintu1.SetBool("doorOpen", false);
             animatorPintu2.SetBool("doorOpen", false);
+            animatorPintu3.SetBool("doorOpen", false);
         }
       
     }
@@ -170,6 +172,7 @@ public class MovementTikus : MonoBehaviour
             animatorPintu.SetBool("doorOpen", true);
             animatorPintu1.SetBool("doorOpen", true);
             animatorPintu2.SetBool("doorOpen", true);
+            animatorPintu3.SetBool("doorOpen", true);
         }
  }
 
