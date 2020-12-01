@@ -11,6 +11,7 @@ public class Timer : MonoBehaviour
     private float minutes, seconds;
     public GameObject timeup, lose;
     public bool isWin = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +29,8 @@ public class Timer : MonoBehaviour
         else
         {
             timernya.text = string.Format("{0:00}:{1:00}", 0, 0);
-            timeup.SetActive(true);
-            lose.SetActive(true);
             GameObject.Find("Player/Idle").GetComponent<MovementTikus>().isPlaying = false;
+            StartCoroutine(Lose());
             StartCoroutine(balikmain());
         }
 
@@ -39,6 +39,14 @@ public class Timer : MonoBehaviour
             timernya.text = string.Format("{0:00}:{1:00}", 0, 0);
             StartCoroutine(balikmain());
         }
+    }
+
+    IEnumerator Lose()
+    {
+        timeup.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        Destroy(timeup);
+        lose.SetActive(true);
     }
 
     IEnumerator balikmain()

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovementTikus : MonoBehaviour
 {
@@ -26,7 +27,9 @@ public class MovementTikus : MonoBehaviour
 
     public AudioSource kejuu;
     public AudioSource jebakan;
-    public AudioSource loncat;
+    public AudioClip loncat;
+
+    private AudioSource source { get { return GetComponent<AudioSource>(); } }
 
     public GameObject pause;
 
@@ -37,6 +40,9 @@ public class MovementTikus : MonoBehaviour
         animatorPintu1 = GameObject.Find("DoorHolder1").GetComponent<Animator>();
         animatorPintu2 = GameObject.Find("DoorHolder2").GetComponent<Animator>();
         animatorPintu3 = GameObject.Find("DoorHolder3").GetComponent<Animator>();
+
+        source.clip = loncat;
+        source.volume = .2f;
     }
     private void Update()
     {
@@ -87,7 +93,7 @@ public class MovementTikus : MonoBehaviour
                 {
                     velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
                     animator.SetBool("jump", true);
-                    loncat.Play();
+                    source.PlayOneShot(loncat);
                     //animator.SetBool("jumpUp", true);
                 }
 
@@ -101,7 +107,7 @@ public class MovementTikus : MonoBehaviour
                 {
                     velocity.y = Mathf.Sqrt(jumpheight * -2f * gravity);
                     animator.SetBool("jumpUp", true);
-                    loncat.Play();
+                    source.PlayOneShot(loncat);
                     //animator.SetBool("jumpUp", true);
                 }
                 animator.SetBool("run", false);

@@ -263,7 +263,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -620,49 +620,53 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Kuliah/Semester 5/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Program/Unity/Project/GKA/UAS_GKA/UAS-GKA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EF0B2A17-3A80-6A10-3B4C-8E12186B808E}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{9DA544FB-189D-4897-CC22-207EF17051C3}</Project>
       <Name>Assembly-CSharp</Name>
